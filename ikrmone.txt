@@ -1,0 +1,304 @@
+padding-right: 77px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+
+
+
+
+
+
+<div class="container">
+        <!-- Success button with black background -->
+        <button class="btn btn-black">
+            <div class="one-two">
+                <i class="fas fa-home clr-redone"></i> 
+                <span class="hom-one">Home</span>
+            </div>
+           <div  class="four-three"><span class="dspl-blck"> Best HOME Page</span></div>
+            
+        </button>
+        <button class="btn btn-black">
+            
+            <i class="fas fa-home clr-redone"></i> 
+            <span class="hom-one">Features</span>
+            <span class="dspl-blck"> What CAN WE OFFER</span>
+        </button>
+        <button class="btn btn-black">
+            <i class="fas fa-home clr-redone"></i> 
+            <span class="hom-one">PAGES</span>
+            <span class="dspl-blck"> WHAT YOU CAN DO</span>
+        </button>
+        <button class="btn btn-black">
+            <i class="fas fa-home clr-redone"></i> 
+            <span class="hom-one">PROJECTS</span>
+            <span class="dspl-blck"> EASY TO CUSTOMIZE</span>
+        </button>
+        <button class="btn btn-black">
+            <i class="fas fa-home clr-redone"></i> 
+            <span class="hom-one">Blog NEWS</span>
+            <span class="dspl-blck"> LATEST EVENTS</span>
+        </button>
+        <button class="btn btn-black">
+            <i class="fas fa-home clr-redone"></i> 
+            <span class="hom-one">ContactS</span>
+            <span class="dspl-blck"> STAY IN TOUCH</span>
+        </button>
+        
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navbar-nav .nav-link {
+            color: #000;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #f0ad4e;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <!-- header start -->
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light mg-0">
+        <div class="container-fluid">
+            <a class="navbar-brand clr-blck" href="#">Your Brand</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="social-icn  dsply-nonr-990">
+                <div class="icn-bgclor">
+                    <i class="fas fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="cel-phn">
+                     <h6 class="child-cle">03224422802</h6>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light pd-top-0 dsply-nonr-990 ">
+        <div class="container-fluid">
+            <a class="navbar-brand clr-blck" href="#">PSD Theme</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="social-icn">
+                <div class="icn-bgclor">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="cel-phn">
+                     <h6 class="child-cle">kamranayyub719@gmail.com</h6>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#"><i class="bi bi-facebook mx-2  sme-rd"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="bi bi-twitter mx-2  sme-rd"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="bi bi-linkedin mx-2  sme-rd"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="bi bi-envelope mx-2  sme-rd"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex me-2">
+                            <div class="parnt-postion">
+                
+                                <div class="input-group ">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                        <i class="bi bi-search child-postn"></i>
+                                
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="d-flex flex-wrap dsply-nonr-990">
+            <button class="btn btn-custom">
+                <div class="one-two">
+                    <i class="fas fa-home clr-redone"></i> 
+                    <span class="hom-one">Home</span>
+                </div>
+                <div class="four-three">
+                    <span class="dspl-blck">Best HOME Page</span>
+                </div>
+            </button>
+            <button class="btn btn-custom">
+                <div class="one-two">
+                    <i class="fas fa-home clr-redone"></i> 
+                    <span class="hom-one">Features</span>
+                </div>
+                <div class="four-three">
+                    <span class="dspl-blck">What CAN WE OFFER</span>
+                </div>
+            </button>
+            <button class="btn btn-custom">
+                <div class="one-two">
+                    <i class="fas fa-home clr-redone"></i> 
+                    <span class="hom-one">PAGES</span>
+                </div>
+                <div class="four-three">
+                    <span class="dspl-blck"> WHAT YOU CAN DO</span>
+                </div>
+            </button>
+            <button class="btn btn-custom">
+                <div class="one-two">
+                    <i class="fas fa-home clr-redone"></i> 
+                    <span class="hom-one">PROJECTS</span>
+                </div>
+                <div class="four-three">
+                    <span class="dspl-blck">EASY TO CUSTOMIZE</span>
+                </div>
+            </button>
+            <button class="btn btn-custom">
+                <div class="one-two">
+                    <i class="fas fa-home clr-redone"></i> 
+                    <span class="hom-one">Blog NEWS</span>
+                </div>
+                <div class="four-three">
+                    <span class="dspl-blck">LATEST EVENTS</span>
+                </div>
+            </button>
+            <button class="btn btn-custom">
+                <div class="one-two">
+                    <i class="fas fa-home clr-redone"></i> 
+                    <span class="hom-one">ContactS</span>
+                </div>
+                <div class="four-three">
+                    <span class="dspl-blck">STAY IN TOUCH</span>
+                </div>
+            </button>
+            
+        </div>
+    </div>
+
+    
+ <!-- header start end -->
+   <!-- hero-section-start -->
+    
+ <div class="hero-section-one text-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h5 class="text-uppercase mb-3">Choose BISS Template For Your Purpose</h5>
+                <h1 class="display-4 fw-bold">All-In-One</h1>
+                <p class="lead hero-text">
+                    Cras placerat pulvinar volutpat. Vestibulum nisi ipsum, imperdiet sit amet lorem id, dictum scelerisque enim.
+                    Aliquam non purus iaculis nisi congue molestie.
+                </p>
+                <a href="#" class="btn btn-custom-one me-2">Discover More</a>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+                <img src="person-image.jpg" alt="Person" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container text-center mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h5 class="text-uppercase">Choose <span class="highlight">BISS</span> Multipurpose PSD Template</h5>
+            <p>
+                Ut vitae mauris vitae ipsum porttitor faucibus. In vitae rhoncus dolor. Nam ac justo sed lectus imperdiet commodo vitae non.
+            </p>
+            <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-custom me-2">Purchase Now</a>
+                <a href="#" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- hero-section-start-end -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
